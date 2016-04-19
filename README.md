@@ -8,12 +8,12 @@ Small function to write something over an image.
  * PHP GD lib
 ```
 
-### Prerequisities
+### Parameters
 
 ```
 [
     "imagePath"     => "images/image.jpg",             // the image path
-    "rgbColor"      => [255,255,255],                  // the rgb color      *optional 
+    "rgbColor"      => [255,255,255],                  // the rgb color      *optional
     "fontFilePath"  => "fonts/OpenSans-CondLight.ttf", // the font file      *optional
     "fontSize"      => 60,                             // the font size      *optional
     "textPosition"  => [75,125],                       // the text position  *optional
